@@ -1,4 +1,4 @@
-# Pokédom Tech Test (Week 4)
+# Pokédom Tech Test
 ## Requirements
 - Using the array of pokémon and your knowledge of DOM manipulation in JavaScript, display information about 151 pokémon on your site
 - You will not need to add any new files, and the only file you need to change is `script.js`. However feel free to play around with the `index.html` to find out how all the styles work.
