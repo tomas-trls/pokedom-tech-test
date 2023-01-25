@@ -16,6 +16,98 @@
   </head>
   <body>
     <h1>PokéDom- gotta code 'em all!</h1>
+    <nav class="navigation">
+      <div class="navigation__search">
+        <label for="searchBar" class="navigation__search-label"
+          >Search Pokemon
+        </label>
+        <input
+          type="search"
+          name="search"
+          id="searchBar"
+          class="navigation__search-bar"
+        />
+      </div>
+      <div class="navigation__search">
+        <label
+          for="searchLimit"
+          class="navigation__search-label"
+          id="searchLimit-label"
+          >Limit</label
+        >
+        <input
+          type="range"
+          name="search-max"
+          id="searchLimit"
+          class="navigation__search-bar"
+          min="0"
+          max="151"
+          step="5"
+        />
+      </div>
+      <div class="navigation__types-filter">
+        <label class="checkbox">
+          Fire
+          <input type="checkbox" name="checkbox" value="fire" />
+        </label>
+        <label class="checkbox">
+          Water
+          <input type="checkbox" name="checkbox" value="water" />
+        </label>
+        <label class="checkbox">
+          Grass
+          <input type="checkbox" name="checkbox" value="grass" />
+        </label>
+        <label class="checkbox">
+          Bug
+          <input type="checkbox" name="checkbox" value="bug" />
+        </label>
+        <label class="checkbox">
+          Ground
+          <input type="checkbox" name="checkbox" value="ground" />
+        </label>
+        <label class="checkbox">
+          Poison
+          <input type="checkbox" name="checkbox" value="poison" />
+        </label>
+        <label class="checkbox">
+          Rock
+          <input type="checkbox" name="checkbox" value="rock" />
+        </label>
+        <label class="checkbox">
+          Flying
+          <input type="checkbox" name="checkbox" value="flying" />
+        </label>
+        <label class="checkbox">
+          Fighting
+          <input type="checkbox" name="checkbox" value="fighting" />
+        </label>
+        <label class="checkbox">
+          Ice
+          <input type="checkbox" name="checkbox" value="ice" />
+        </label>
+        <label class="checkbox">
+          Ghost
+          <input type="checkbox" name="checkbox" value="ghost" />
+        </label>
+        <label class="checkbox">
+          Electric
+          <input type="checkbox" name="checkbox" value="electric" />
+        </label>
+        <label class="checkbox">
+          Dragon
+          <input type="checkbox" name="checkbox" value="dragon" />
+        </label>
+        <label class="checkbox">
+          Psychic
+          <input type="checkbox" name="checkbox" value="psychic" />
+        </label>
+        <label class="checkbox">
+          Normal
+          <input type="checkbox" name="checkbox" value="normal" />
+        </label>
+      </div>
+    </nav>
 
     <main class="card-container"></main>
 
